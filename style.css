@@ -1,0 +1,105 @@
+/*========================*/
+/*===BASIC SETUP===*/
+/*========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style-type: none;
+}
+
+/*========================*/
+/*===REUSABLE COMPONENTS===*/
+/*========================*/
+
+.row {
+  max-width: 922px;
+  margin: auto;
+}
+
+/*   BUTTON  */
+
+.btn {
+  background: darkgreen;
+  color: #fff;
+  text-decoration: none;
+  padding: 21px 35px;
+  display: inline-block;
+  margin-top: 21px;
+  border-radius: 34px;
+}
+
+/*========================*/
+/*===HEADING SECTION===*/
+/*========================*/
+
+h1 {
+  color: #fff;
+}
+
+/*========================*/
+/*===HEADER SECTION===*/
+/*========================*/
+header {
+  height: 85vh;
+  background: url(images/anik.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+}
+
+.logo {
+  height: 92px;
+  margin-top: 27px;
+  width: auto;
+  float: left;
+}
+
+/*========================*/
+/*===MAIN NAVIGATION===*/
+/*========================*/
+.mainnav {
+  float: right;
+  margin-top: 27px;
+}
+
+.mainnav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.mainnav li:first-child {
+  margin-left: 0;
+}
+.mainnav li a:link,
+.mainnav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 16px;
+  background: rgba(233, 150, 122, 0.007);
+  border-radius: 4px;
+  font-size: 16px;
+
+  transition: 0.3s;
+}
+
+.mainnav li:hover a:link,
+.mainanv li:hover a:visited {
+  background: rgba(128, 128, 128, 1);
+}
+
+.active {
+  background: rgba(128, 128, 128, 1);
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(27%, 4%);
+  text-align: center;
+}
